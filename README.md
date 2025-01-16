@@ -1,5 +1,5 @@
 # vps_manager
----
+
 ## Структура проекта
 ```
 vps_manager/
