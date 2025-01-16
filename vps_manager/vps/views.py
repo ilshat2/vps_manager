@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from .models import VPS
-from .serializers import VPSSerializer
+from vps.models import VPS
+from vps.serializers import VPSSerializer
 
 
 class VPSViewSet(ModelViewSet):
