@@ -1,7 +1,9 @@
+
 from rest_framework.routers import DefaultRouter
-from vps.views import VPSViewSet
+from .views import VPSViewSet
+
 
 router = DefaultRouter()
-router.register(r'vps', VPSViewSet)
+router.register(r'', VPSViewSet)  # Корневой маршрут для API
 
 urlpatterns = router.urls
